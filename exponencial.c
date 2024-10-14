@@ -35,7 +35,7 @@ int exp_while(int a, int b)
 int exp_do_while(int a, int b)
 {
   int res=1;
-  int i=1;
+  int i=0;
 
   do
   {
@@ -63,7 +63,7 @@ int main()
   printf("El resultado es: %d\n", res);
 
   printf("\nExponenciacion con do while:\n");
-  res = exp_while(a, b);
+  res = exp_do_while(a, b);
   printf("El resultado es: %d\n", res);
   
   return 0;
