@@ -51,7 +51,7 @@ int main()
   int a, b, res;
   printf("Dame la base: ");
   scanf("%d", &a);
-  printf("Dame el expoente: ");
+  printf("Dame el exponente: ");
   scanf("%d", &b);
 
   printf("\nExponenciacion con for:\n");
