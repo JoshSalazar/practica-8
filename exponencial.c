@@ -35,7 +35,7 @@ int exp_while(int a, int b)
 int exp_do_while(int a, int b)
 {
   int res=1;
-  int i;
+  int i=1;
 
   do
   {
